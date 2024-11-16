@@ -63,21 +63,21 @@ import { PinContainer } from "../components/ui/3d-pin";
 const projectData = [
   {
     name: "BizNiche",
-    image: "https://i.postimg.cc/KjHc9fH9/Biz-Niche-SS.png",
+    image: "https://i.postimg.cc/2jXDDDjd/Biz-Niche-SS.png",
     href: "https://github.com/arnav-iwnl/BizNiche",
     description:
       "An e-commerce platform empowering local businesses with AI-powered product recommendations and category detection.",
   },
   {
     name: "Course Session Plan",
-    image: "https://i.postimg.cc/Fz7NJcH0/Session-Plan-Management.png",
+    image: "https://i.postimg.cc/28sN17ZV/Session-Plan-Management.png",
     href: "https://github.com/arnav-iwnl/CourseSessionPlan",
     description:
       "A tool for instructors to create, manage, and share detailed course session plans effectively.",
   },
   {
     name: "Career GPT",
-    image: "https://i.postimg.cc/WpH2c958/Gemini-Project.png",
+    image: "https://i.postimg.cc/FR1bScMB/Gemini-Project.png,
     href: "https://github.com/arnav-iwnl/CareerGPT",
     description:
       "An AI-driven platform offering personalized career guidance based on user profiles and preferences.",
