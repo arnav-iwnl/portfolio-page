@@ -1,7 +1,6 @@
 import React from "react";
 import TechStack from "./TechStack";
 import Projects from "./Projects";
-import Profiles from "./Profiles";
 import Experience from "./Experience";
 import Contact from "./Contact";
 import { HoverBorderGradient } from "../components/ui/hover-border-gradient";

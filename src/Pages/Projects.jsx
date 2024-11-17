@@ -5,28 +5,28 @@ import { PinContainer } from "../components/ui/3d-pin";
 const projectData = [
   {
     name: "BizNiche",
-    image: "../lib/assets/BizNicheSS.png",
+    image: "https://raw.githubusercontent.com/arnav-iwnl/portfolio-page/refs/heads/main/src/lib/assets/BizNicheSS.png",
     href: "https://github.com/arnav-iwnl/BizNiche",
     description:
       "An e-commerce platform empowering local businesses with AI-powered product recommendations and category detection.",
   },
   {
     name: "Course Session Plan",
-    image: "../lib/assets/SessionPlanManagement.pmg",
+    image: "https://raw.githubusercontent.com/arnav-iwnl/portfolio-page/refs/heads/main/src/lib/assets/SessionPlanManagement.png",
     href: "https://github.com/arnav-iwnl/CourseSessionPlan",
     description:
       "A tool for instructors to create, manage, and share detailed course session plans effectively.",
   },
   {
     name: "Career GPT",
-    image: "../lib/assets/Gemini-Project.png",
+    image: "https://raw.githubusercontent.com/arnav-iwnl/portfolio-page/refs/heads/main/src/lib/assets/Gemini-Project.png",
     href: "https://github.com/arnav-iwnl/CareerGPT",
     description:
       "An AI-driven platform offering personalized career guidance based on user profiles and preferences.",
   },
   {
     name: "LPR YOLOv8",
-    image: "../lib/assets/sussex.pmg",
+    image: "https://raw.githubusercontent.com/arnav-iwnl/portfolio-page/refs/heads/main/src/lib/assets/sussex.png",
     href: "https://github.com/arnav-iwnl/LPR-YOLOv8",
     description:
       "License Plate Recognition project uses the YOLO v8 model and OpenCV for real-time detection and recognition of vehicle license plates.",
