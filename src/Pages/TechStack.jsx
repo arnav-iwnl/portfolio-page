@@ -10,6 +10,7 @@ export const techStackData = [
   {
     title: "Node.js",
     image: "https://cdn.worldvectorlogo.com/logos/nodejs-1.svg",
+    image_bg: 1,
     description: "A runtime environment that executes JavaScript code outside a web browser, perfect for building scalable network applications."
   },
   {
@@ -20,6 +21,7 @@ export const techStackData = [
   {
     title: "MongoDB",
     image: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+   
     description: "A NoSQL database that provides high performance, high availability, and easy scalability for modern applications."
   },
   {
@@ -30,17 +32,19 @@ export const techStackData = [
   {
     title: "MySQL",
     image: "https://cdn.worldvectorlogo.com/logos/mysql-logo-pure.svg",
+    image_bg: 1,
     description: "An open-source relational database management system that is fast, reliable, and easy to use."
   },
   {
     title: "Prisma",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3eGfRrGq0iRlsBrumJqeUXxK747tpEpaCuA&s",
+    image: "https://imgs.search.brave.com/I-jd6urhzxDeJweFcLQQS8i4DAGcL2uijL91tjcjF3k/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZWNkZmVlYmUy/NmE0MzkxMmVhNDBh/OGQzN2UwNWRmNWQw/YWQ5NmQyNDU0ZDI4/OTRiOWEwZjY0NjBh/YWUyNGIzMi93d3cu/cHJpc21hLmlvLw",
     description: "Next-generation ORM for Node.js & TypeScript, offering type safety and automated migrations."
   },
   
   {
     title: "AWS",
     image: "https://cdn.worldvectorlogo.com/logos/aws-2.svg",
+    image_bg: 1,
     description: "Amazon Web Services provides on-demand cloud computing platforms and APIs used for hosting, serverless computing, and cloud storage."
   },
   {

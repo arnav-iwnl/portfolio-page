@@ -1,4 +1,39 @@
 * {
   background-color: #141414;
   color: white;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: none;
+}
+a {
+  cursor: default;
+}
+
+.line {
+  height: 1px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.line svg {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  top: -50px;
+}
+
+.line svg path {
+  stroke-width: 1px;
+  stroke: white;
+  fill: none;
+}
+
+.box {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: -20px;
+  z-index: 1;
 }

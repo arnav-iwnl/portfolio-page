@@ -1,10 +1,12 @@
 
-"use client";
 import React from "react";
-import { FaLinkedin, FaGithub, FaInstagram,FaRegEnvelope } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaRegEnvelope,
+} from "react-icons/fa";
 
-
-"use client";
 
 import { PlaceholdersAndVanishInput } from "../components/ui/placeholder";
 
@@ -22,13 +24,16 @@ export function PlaceholdersAndVanishInputDemo() {
     console.log("submitted");
   };
   return (
-    (<div className="flex flex-col justify-center  items-center px-4">
-      <h2
-        className="mb-7 sm:mb-15 mt-10 text-xl font-bold text-center sm:text-4xl dark:text-white text-black">
+    <div className="flex flex-col justify-center  items-center px-4">
+      <h2 className="mb-7 sm:mb-15 mt-10 text-xl font-bold text-center sm:text-4xl dark:text-white text-black">
         Contact Me
       </h2>
-      <PlaceholdersAndVanishInput placeholders={placeholders} onChange={handleChange} onSubmit={onSubmit} />
-    </div>)
+      <PlaceholdersAndVanishInput
+        placeholders={placeholders}
+        onChange={handleChange}
+        onSubmit={onSubmit}
+      />
+    </div>
   );
 }
 
@@ -50,44 +55,42 @@ export const MailIcon = (props) => (
   </svg>
 );
 
-
 const Contact = () => {
   return (
     <div className="bg-black mt-5">
-     <PlaceholdersAndVanishInputDemo />
-     <div className="flex flex-row pt-5 justify-center px-10 gap-6">
-  <a
-    href="https://www.linkedin.com/in/arnavmandlik/"
-    target="_blank"
-    className="text-2xl text-blue-400 underline"
-  >
-    <FaLinkedin />
-  </a>
+      <PlaceholdersAndVanishInputDemo />
+      <div className="flex flex-row pt-10 justify-center px-10 gap-6">
+        <a
+          href="https://www.linkedin.com/in/arnavmandlik/"
+          target="_blank"
+          className="text-2xl text-blue-400 underline"
+        >
+          <FaLinkedin />
+        </a>
 
-  <a
-    href="https://github.com/arnav-iwnl"
-    target="_blank"
-    className="text-2xl text-blue-400 underline"
-  >
-    <FaGithub />
-  </a>
+        <a
+          href="https://github.com/arnav-iwnl"
+          target="_blank"
+          className="text-2xl text-blue-400 underline"
+        >
+          <FaGithub />
+        </a>
 
-  <a
-    href="https://instagram.com/arnav.socials"
-    target="_blank"
-    className="text-2xl text-blue-400 underline"
-  >
-    <FaInstagram />
-  </a>
-  <a
-    href="mailto:arnavmandlik1@gmail.com"
-    target="_blank"
-    className="text-2xl text-blue-400 underline"
-  >
-    <FaRegEnvelope />
-  </a>
-</div>
-
+        <a
+          href="https://instagram.com/arnav.socials"
+          target="_blank"
+          className="text-2xl text-blue-400 underline"
+        >
+          <FaInstagram />
+        </a>
+        <a
+          href="mailto:arnavmandlik1@gmail.com"
+          target="_blank"
+          className="text-2xl text-blue-400 underline"
+        >
+          <FaRegEnvelope />
+        </a>
+      </div>
     </div>
   );
 };

@@ -51,8 +51,8 @@ export const HoverEffect = ({
                 </Card>
               </Link>
             ) : (
-              <Card image={item.image}>
-                <CardTitle>{item.title}</CardTitle>
+              <Card >
+                <CardTitle image_bg={item.image_bg} image={item.image}>{item.title}</CardTitle>
                 <CardDescription>{item.description}</CardDescription>
               </Card>
             )}
@@ -77,7 +77,6 @@ export const HoverEffect = ({
 export const Card = ({
     className,
     children,
-    image // Add image prop
   }) => {
     return (
       <div
@@ -85,19 +84,8 @@ export const Card = ({
           "rounded-2xl h-full w-full p-4 overflow-hidden bg-black border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
           className
         )}>
-        {/* Image container positioned absolutely in top right */}
-        {image && (
-          <div className="absolute top-4 right-4 z-50">
-            <div className="w-12 h-12 rounded-full bg-slate-800/50 p-2 flex items-center justify-center">
-              <img 
-                src={image} 
-                alt="Tech Icon" 
-                className="w-8 h-8 object-contain filter brightness-100 group-hover:brightness-110 transition-all duration-300"
-              />
-            </div>
-          </div>
-        )}
-        <div className="relative z-50">
+       
+        <div className="relative z-10">
           <div className="p-4">{children}</div>
         </div>
       </div>
@@ -106,12 +94,36 @@ export const Card = ({
   
   export const CardTitle = ({
     className,
+    image,
+    image_bg,
     children
   }) => {
+    const checkImgBg = ()=>{
+      if(image_bg === 1){
+        return "w-12 h-12 object-contain rounded-full bg-white p-2"; 
+      }
+      return "w-8 h-8 object-contain"; // Default styling
+    }
     return (
-      <h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4", className)}>
+      <div className="flex justify-between items-center"> {/* Align with space between */}
+      <h4
+        className={cn(
+          "text-zinc-100 font-bold tracking-wide flex-1 ", // Center text vertically
+          className
+        )}
+      >
         {children}
       </h4>
+      <div className="">
+      {image && (
+        <img
+          src={image}
+          alt="Tech Icon"
+          className={cn(checkImgBg(),"group-hover:brightness-110 transition-all duration-300 ")} // Add spacing between text and image
+        />
+      )}
+      </div>
+    </div>
     );
   };
   
