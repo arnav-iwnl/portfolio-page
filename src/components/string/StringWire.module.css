@@ -4,12 +4,13 @@
     margin-bottom: 20px;
     width: 100%;
     position: relative;
+    padding-left: 10%;
     background-color: transparent;
   }
   
   .line svg{
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-color: transparent;
     position: absolute;
     top: -250px;

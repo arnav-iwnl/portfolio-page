@@ -18,7 +18,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        shimmer: "shimmer 2s linear infinite",
+        shimmer: "shimmer 3s linear infinite",
       },
       keyframes: {
         shimmer: {

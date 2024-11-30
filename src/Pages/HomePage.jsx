@@ -1,13 +1,10 @@
 import React from "react";
-
 import NeonCursor from "../components/cursor/NeonCursor";
-// import GrabScroll from "../components/Grabbing-cursor/Grab";
 import StringWire from "../components/string/StringWire";
 import TechStack from "./TechStack";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import Contact from "./Contact";
-import { HoverBorderGradient } from "../components/ui/hover-border-gradient";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const AceternityLogo = () => {
@@ -34,8 +31,8 @@ const AceternityLogo = () => {
 const HomePage = () => {
   return (
     <div className="flex z-400 h-screen justify-center bg-[#141414] rounded-t-xxl w-[50em] no-scrollbar text-white ">
-      <div className="flex-1 h-full overflow-y-auto  bg-[#141414]k no-scrollbar p-6">
-        <div className="flex flex-col items-center mt-10 h-full  rounded-t-xl bg-[#141414] border-gray-700">
+      <div className="flex-1  overflow-y-auto bg-[#141414]k no-scrollbar p-6">
+        <div className="flex flex-col items-center mt-10 h-screen  rounded-t-xl bg-[#141414] border-gray-700">
           <div className="w-[200px] bg-[#141414] h-[200px] rounded-full overflow-hidden mb-6  flex items-center justify-center border-4 border-gray-700">
             <img
               src="https://creatorspace.imgix.net/users/clmza562300dwq301fv2kegam/NjN4W9FBvqBbwmL7-WhatsApp%2520Image%25202024-07-30%2520at%252010.01.35%2520PM.jpg?w=300&h=300"
@@ -90,10 +87,12 @@ const HomePage = () => {
                 </a>
               </button>
             </div>
-            <div className="p-3 flex justify-center items-center  2xl:block  hidden">
-              <div className="relative w-full h-[150px] px-8 " >
+            <div>
+            <div className="p-3 justify-center items-center  2xl:flex hidden ">
+              <div className="w-full h-[150px] flex justify-center  justify-items-start" >
                 <StringWire />
               </div>
+            </div>
             </div>
           </div>
         </div>
