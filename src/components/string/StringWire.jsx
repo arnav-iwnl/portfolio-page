@@ -8,13 +8,14 @@ export default function StringWire() {
   let x = 0.5;
   let time = Math.PI / 2;
   let reqId = null;
+  
 
   useEffect(() => {
     setPath(progress);
   }, [])
 
   const setPath = (progress) => {
-    const width = window.innerWidth * 0.30;
+    const width = document.innerWidth * 0.30;
     path.current.setAttributeNS(null, "d", `M0 250 Q${width * x} ${250 + progress}, ${width} 250`)
   }
 

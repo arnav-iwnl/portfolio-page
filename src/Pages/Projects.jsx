@@ -35,7 +35,7 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <div className="text-white pt-12 px-10 max-w-7xl mx-auto">
+    <div className="text-white pt-12  max-w-7xl mx-auto">
     <h1 className="text-4xl font-extrabold mb-12 text-center bg-transparent">
       Projects
     </h1>

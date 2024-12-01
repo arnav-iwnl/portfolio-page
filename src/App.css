@@ -1,10 +1,17 @@
 * {
-  background-color: #141414;
+
   color: white;
   -webkit-user-select: none;
+  
+
+  
   user-select: none;
   cursor: none;
 }
+::-webkit-scrollbar{
+  display: none;
+}
+
 a {
   cursor: default;
 }
