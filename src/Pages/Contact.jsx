@@ -25,7 +25,7 @@ export function PlaceholdersAndVanishInputDemo() {
   };
   return (
     <div className="flex w-full flex-col rounded-2xl md:px-10 mt-16 justify-between items-center">
-      <h2 className="mb-7 sm:mb-15 pt-10 text-xl font-bold text-center sm:text-3xl dark:text-white text-black">
+      <h2 className="mb-7 sm:mb-15 pt-10 text-xl font-bold text-center sm:text-3xl  text-white">
         Contact Me
       </h2>
       <PlaceholdersAndVanishInput

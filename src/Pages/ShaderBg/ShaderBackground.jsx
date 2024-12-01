@@ -192,7 +192,7 @@ const ShaderBackground = ({ color, amplitude, speed, progress }) => {
   return (
     <canvas
       ref={canvasRef}
-      className="z-50"
+      className="none"
     >
     </canvas>
   );
