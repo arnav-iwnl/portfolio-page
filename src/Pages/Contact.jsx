@@ -24,8 +24,8 @@ export function PlaceholdersAndVanishInputDemo() {
     console.log("submitted");
   };
   return (
-    <div className="flex flex-col rounded-2xl md:px-10 mt-16 justify-between items-center">
-      <h2 className="mb-7 sm:mb-15  pt-10 text-xl font-bold text-center sm:text-4xl dark:text-white text-black">
+    <div className="flex w-full flex-col rounded-2xl md:px-10 mt-16 justify-between items-center">
+      <h2 className="mb-7 sm:mb-15 pt-10 text-xl font-bold text-center sm:text-3xl dark:text-white text-black">
         Contact Me
       </h2>
       <PlaceholdersAndVanishInput
@@ -57,7 +57,7 @@ export const MailIcon = (props) => (
 
 const Contact = () => {
   return (
-    <div className="bg-[#141414] my-10 rounded-lg">
+    <div className="bg-[#141414] my-10 rounded-lg sm:w-full">
       <PlaceholdersAndVanishInputDemo />
       <div className="flex flex-row  py-10 justify-center gap-6">
         <a

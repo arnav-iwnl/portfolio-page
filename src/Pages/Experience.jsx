@@ -39,9 +39,12 @@ import { Timeline } from "../components/ui/timeline";
       },
     ];
     return (
-      <div className="bg-[#141414] px-5 py-10 rounded-xl shadow-lg">
-        <h2 className="text-4xl text-center font-bold  text-white">Experience</h2>
+      <div >
+      <h2 className="text-3xl text-center mb-10 bg-transparent font-bold  text-white">Experience</h2>
+        <div className="bg-[#141414] px-5  rounded-xl shadow-lg">
+          
         <Timeline data={data} />
+        </div>
       </div>
     );
   };

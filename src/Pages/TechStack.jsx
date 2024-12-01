@@ -59,7 +59,7 @@ export const techStackData = [
 const TechStack = () => {
   return (
     <div className="text-white mt-10 space-y-6">
-      <h1 className="text-3xl font-bold pb-4 text-center">Tech Stack</h1>
+      <h1 className="text-3xl font-bold p-3 text-center">Tech Stack</h1>
       <div className=" gap-6 sm:grid-cols-3">
         <HoverEffect items={techStackData}/>
       </div>
