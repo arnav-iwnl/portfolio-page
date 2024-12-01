@@ -145,6 +145,7 @@ export default function Home() {
     
           {/* Download Button */}
           <div className="flex justify-center">
+              
             <button className="inline-flex cursor-none h-10 sm:h-12 items-center justify-between rounded-2xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-4 sm:px-6 font-medium text-sm sm:text-base text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
               <AceternityLogo />
               <a
