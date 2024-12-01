@@ -1,5 +1,4 @@
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import StringWire from "../components/string/StringWire";
 
 export default function Home() {
   const AceternityLogo = () => {
@@ -24,67 +23,6 @@ export default function Home() {
   };
 
   return (
-    // <div className="flex flex-col items-center xl:mt-10 h-screen justify-center rounded-t-xl bg-[#141414] border-gray-700">
-    //   <div className="bg-[#141414] rounded-full overflow-hidden mb-6  w-[200px] h-[200px] border-4 border-gray-700">
-    //     <img
-    //       src="https://creatorspace.imgix.net/users/clmza562300dwq301fv2kegam/NjN4W9FBvqBbwmL7-WhatsApp%2520Image%25202024-07-30%2520at%252010.01.35%2520PM.jpg?w=300&h=300"
-    //       alt="Profile"
-    //       className="w-full h-full object-cover"
-    //     />
-    //   </div>
-
-    //   <div className="text-center flex flex-col justify-between space-y-4 px-4">
-    //     <div>
-    //       <p className="text-2xl font-bold">Arnav Mandlik</p>
-    //       <p className="text-xl font-medium">
-    //         MERN Developer <br />
-    //         <br />
-    //         <p className="italic font-light">"Code is poetry in motion"</p>
-    //       </p>
-    //     </div>
-    //     <div className="flex flex-row justify-around px-20">
-    //       <a
-    //         href="https://www.linkedin.com/in/arnavmandlik/"
-    //         target="_blank"
-    //         className="text-lg text-blue-400 underline"
-    //       >
-    //         <FaLinkedin />
-    //       </a>
-
-    //       <a
-    //         href="https://github.com/arnav-iwnl"
-    //         target="_blank"
-    //         className="text-lg text-blue-400 underline"
-    //       >
-    //         <FaGithub />
-    //       </a>
-    //       <a
-    //         href="https://instagram.com/arnav.socials"
-    //         target="_blank"
-    //         className="text-lg text-blue-400 underline"
-    //       >
-    //         <FaInstagram />
-    //       </a>
-    //     </div>
-    //     <div className="pt-4">
-    //       <p className="font-medium text-center tracking-wider text-xl  ">
-    //         Third Year Undergrad at SIES Graduate School of Technology.
-    //       </p>
-    //     </div>
-    //     <br />
-    //     <div className="flex justify-center">
-    //       <button className="inline-flex h-12 cursor-none animate-shimmer items-center justify-between rounded-2xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-    //         <AceternityLogo />
-    //         <a
-    //           className="pl-5 cursor-none"
-    //           href="https://drive.usercontent.google.com/download?id=1LNwqtifU5cJgZRF9JWfIpYU4NTHJCKQ2&export=download&authuser=0&confirm=t&uuid=dc1c08ae-ab14-414a-b4e7-159cd282c72b&at=AENtkXYkaOeZlR5Y9Nvh3qq6bY9h:1731755142249"
-    //         >
-    //           Download CV
-    //         </a>
-    //       </button>
-    //     </div>
-    //   </div>
-    // </div>
     
       <div className="flex flex-col items-center xl:mt-10 h-screen justify-center rounded-t-xl bg-[#141414] border-gray-700">
         {/* Profile Image */}
