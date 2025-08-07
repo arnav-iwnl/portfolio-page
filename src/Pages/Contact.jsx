@@ -9,10 +9,11 @@ import {
 import { PlaceholdersAndVanishInput } from "../components/ui/placeholder";
 
 export function PlaceholdersAndVanishInputDemo() {
-  const placeholders = [
-    "Reach out to me by sending me email !",
-    "Feel free to hit me up when you hit errors !",
-  ];
+ const placeholders = [
+  "Seems like you found me! https://your-portfolio-url.com",
+  "Reach out to me by sending me email!",
+  "Feel free to hit me up when you hit errors!",
+];
 
   const handleChange = (e) => {
     console.log(e.target.value);
