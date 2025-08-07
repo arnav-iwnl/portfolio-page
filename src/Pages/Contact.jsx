@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaRegEnvelope,
 } from "react-icons/fa";
+import { MdBento } from "react-icons/md";
 import { PlaceholdersAndVanishInput } from "../components/ui/placeholder";
 
 export function PlaceholdersAndVanishInputDemo() {
