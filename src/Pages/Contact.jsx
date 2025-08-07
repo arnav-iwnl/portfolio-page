@@ -11,7 +11,7 @@ import { PlaceholdersAndVanishInput } from "../components/ui/placeholder";
 
 export function PlaceholdersAndVanishInputDemo() {
  const placeholders = [
-  "Seems like you found me! https://your-portfolio-url.com",
+  "LOOK OUT FOR SOCIALS!!",
   "Reach out to me by sending me email!",
   "Feel free to hit me up when you hit errors!",
 ];
