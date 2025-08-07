@@ -89,6 +89,13 @@ const Contact = () => {
         >
           <FaRegEnvelope />
         </a>
+        <a
+          href="https://bento.me/arnav-socials"
+          target="_blank"
+          className="text-2xl text-blue-400 underline"
+        >
+          <MdBento />
+        </a>
       </div>
     </div>
   );
