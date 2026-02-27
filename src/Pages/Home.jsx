@@ -28,7 +28,8 @@ export default function Home() {
         {/* Profile Image */}
         <div className="bg-[#141414] rounded-full overflow-hidden mb-6 w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] border-4 border-gray-700">
           <img
-            src="https://storage.googleapis.com/creatorspace-public/users%2Fclmza562300dwq301fv2kegam%2FNjN4W9FBvqBbwmL7-WhatsApp%2520Image%25202024-07-30%2520at%252010.01.35%2520PM.jpg"
+            // src="https://storage.googleapis.com/creatorspace-public/users%2Fclmza562300dwq301fv2kegam%2FNjN4W9FBvqBbwmL7-WhatsApp%2520Image%25202024-07-30%2520at%252010.01.35%2520PM.jpg"
+            src="https://media.licdn.com/dms/image/v2/D5603AQGTU3P0sY69Ug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722358398753?e=1773878400&v=beta&t=AnOm1jdFF44ruslxJnHPSOm4hKEsPE0zXwcUZcaRFv0"
             alt="Profile"
             className="w-full h-full object-cover"
           />
@@ -75,7 +76,7 @@ export default function Home() {
           {/* Additional Text */}
           <div className="pt-4">
             <p className="text-sm sm:text-xl font-medium text-center tracking-wider">
-              Third Year Undergrad at SIES Graduate School of Technology.
+              Fourth Year Undergrad at SIES Graduate School of Technology.
             </p>
           </div>
     
