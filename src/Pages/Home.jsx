@@ -89,8 +89,9 @@ export default function Home() {
               <AceternityLogo />
               <a
                 className="pl-3 sm:pl-5 cursor-none"
-                href="https://drive.usercontent.google.com/download?id=1LNwqtifU5cJgZRF9JWfIpYU4NTHJCKQ2&export=download&authuser=0&confirm=t&uuid=dc1c08ae-ab14-414a-b4e7-159cd282c72b&at=AENtkXYkaOeZlR5Y9Nvh3qq6bY9h:1731755142249"
-              >
+                href="https://drive.usercontent.google.com/uc?id=1P1mHYMN8tyGEWoKqNps4zbXnD1Q0dddo&authuser=0&export=download"
+
+                >
                 Download CV
               </a>
             </button>
